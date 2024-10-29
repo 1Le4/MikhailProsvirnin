@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1.2em;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgba(240, 247, 255, 0.363);
+    min-height: 120px;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    background-color: aliceblue;
+    min-height: 100px;
+    padding: 10px 50px;
+}
+
+.about {
+    background-color: rgb(59, 12, 187);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.articles {
+    background-color: rgb(33, 17, 173);
+    padding-left:70px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: white;
+    line-height: 2;
+}
+
+h2 {
+    text-align: center;
+    font-style:italic ;
+}
+h3 {
+    text-align: center;
+    font-style:italic ;
+}
+
+
+.avatar {
+    width: 50rem;
+    margin: 0 auto;
+
+    display:block;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+
+}
+
+
+.menu-item{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 30px;
+    color:black;
+
+}
+
+.content{
+    background-color: darkorange;
+    padding: 15px 50px;
+    color: aliceblue;
+    line-height: 1.5;
+}
+.Info{
+    background-color:rgb(33, 17, 173) ;
+}
+
+
+.quot{
+    width: 300px;
+    height: auto;
+    margin: 0px 30px 20px 250px;
+}
+
+.ark{
+    color: white;
+}
+.gosling1{
+    display:block;
+    width: 25rem;
+    margin: 0px;
+}
+.javalogo{
+    width: 30rem;
+    display: block;
+}
+.facts{
+    margin-left: 10px;
+}
+
+.data{
+    font-style: italic;
+}
+
+.ist{
+    color: aliceblue;
+}
+
+.contac{
+    text-align: right;
+}
+
+.styleA{
+    color:black ;
+}
+
+.fut{
+    font-size: 22px;
+}
+
+.imges{
+    width: 30rem;
+    display: block;
+    border: 10px solid aliceblue;
+    border-radius: 20px;
+}
+img{
+    border: 10px solid aliceblue;
+    border-radius: 20px;
+}
+#backComm input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: goldenrod
+}
+#backComm input[type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: goldenrod;
+}
+#backComm input[type="number"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: goldenrod;
+}
+#backComm select{
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: goldenrod;
+}
+#backComm input[type="submit"]{
+    height: 30px;
+    width: 160px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(40, 204, 196);
+}
+#backComm input[type="submit"]:hover{
+    background-color: rgb(34, 18, 155);
+}
+label{
+    color: goldenrod;
+    font-size: 23px;
+}
+
+#backComm input[id="textmessage"]{
+    width: 200px;
+    padding: 5px 5px 180px 5px;
+    text-align: left
+}
+    /*
+
+input[type=submit]{
+
+    padding: 10px 20px;
+    background-color: rgb(198, 108, 243);
+    border: 1px solid purple;
+    color:purple ;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+
+
+input[type=submit]:disabled{
+    background-color: grey;
+    color: white;
+    border: grey;
+}
+
+
+input[type=email],
+input[type=password],
+input[type=number]{
+
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    width: 150px;
+    border-bottom: grey 3px solid;
+    color: black;
+}
+
+input[type=email]:hover,
+input[type=password]:hover,
+input[type=number]:hover{
+
+    background-color:rgb(150, 150, 200) ;
+} 
+*/
+.whi{
+    color: aliceblue;   
+    font-size: 24px;
+}
+
+.tableJava{
+    border: 8px black solid;
+    border-collapse: collapse;
+}
+
+.tableJava td, 
+.tableJava th{
+    font-size: 20px;
+    border-bottom: 8px black solid;
+    border-left: 8px black solid;
+    padding: 15px;
+    color: white;
+
+}
+
+.tableJava tr:nth-child(even){
+    background-color: goldenrod;
+    color: aliceblue;
+}
+.tableJava td:first-of-type,.tableJava td:last-of-type  {
+    font-weight: bold;
+    font-size: 24px; ;
+    color: lightgreen;
+}
+
+
+/*
+#form-example{
+    width: 350px;
+    margin: 20px auto;
+}
+
+#form-example input{
+    background-color:indigo ;
+}
+#form-example input[type = 'submit']{
+    background-color:  rgb(165, 42, 138);
+    border: none;
+    border-bottom: 7px solid rgb(83, 22, 70) ;
+    padding: 7px;
+}
+#form-example input[type = 'submit']:hover{
+    background-color:rgb(83, 22, 70) ;
+    border: rgb(83, 22, 70) 2px solid;
+    border-bottom: 7px solid rgb(44, 11, 37) ;
+    
+}
+
+#form-example input[type = 'submit']:disabled{
+    background-color:rgb(68, 68, 68) ;
+    border: rgb(68, 68, 68) 2px solid;
+    border-radius: 7px;
+}
+
+#form-example input[type = 'text'],
+#form-example input[type = 'password']{
+    background-color: lavender;
+    border: none;
+    border-bottom: 7px solid rgb(83, 22, 70) ;
+    padding: 7px;
+}   
+
+#form-example input[type = 'text']:hover,
+#form-example input[type = 'password']:hover{
+    background-color:rgb(181, 181, 201) ;
+} */
+
+.whi{
+    color:aliceblue;   
+    font-size: 24px;
+}
+.whi:hover{
+    color: rgb(167, 171, 175);
+}
+
+.styleA:hover{
+    color: rgb(167, 171, 175);
+}
+.ark:hover{
+    color: rgb(167, 171, 175);
+}
+
+.ist:hover{
+    color: rgb(167, 171, 175);
+}
+.menu-item:hover{
+    color: rgb(167, 171, 175);
+}
+
+.whi:focus, .styleA:focus, .ark:focus, .ist:focus, .menu-item:focus{
+    outline: none;
+    color: cornflowerblue;
+    border-bottom:white 3px solid ;
+}
+
+.imprt::before{
+    content: " (Важно!)";
+    color: darkorange;
+    background-color:aliceblue;
+    border:darkorange 2px solid ;
+}
+
+p::first-line{
+    letter-spacing: 4px;
+}
+
+#p1::first-line, #p2::first-line,#p3::first-line,#qup4::first-line{
+    letter-spacing: 4px;
+}
+
+
+p:lang(eu){
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.about p{
+    color:darkorange ;
+}
+
+.about h3{
+    color: goldenrod;
+}
+
+.about data{
+    color: goldenrod;
+}
+
+.about ol{
+    color: goldenrod;
+}
+
+.about h2{
+    color: goldenrod;
+}
+
+.about a{
+    color: goldenrod;
+
+}
+
+.about cite{
+    color: goldenrod;
+
+}
+
+.styleA img{
+    border: 2px solid blue;
+}
+.tablec{
+background-color: rgb(59, 12, 187);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 30px;
+}
+#articles a::after{
+    content: "\A";
+    white-space: pre;
+    display: block;
+}
